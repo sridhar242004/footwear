@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heritage | MAISON STEPS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@200;300;400;500;600&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .serif {
+            font-family: 'Cormorant Garamond', serif;
+        }
+
+        .text-gold {
+            color: #BD9A5F;
+        }
+
+        .bg-gold {
+            background-color: #BD9A5F;
+        }
+
+        .hover\:text-gold:hover {
+            color: #BD9A5F;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Navigation (Same as other pages) -->
+    <nav class="w-full bg-white shadow-sm">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="serif text-3xl tracking-widest">MAISON STEPS <div class="hidden lg:flex items-center gap-8">
+                   
+                    <a href="index.html" class="py-2 text-gold">Home</a>
+                    <a href="b.html" class="py-2 hover:text-gold transition-colors">Bespoke</a>
+                </div>
+                <div class="flex items-center gap-6">
+                    <button class="hover:text-gold transition-colors">
+                        <i class="fas fa-search text-lg"></i>
+                    </button>
+                    <button class="hover:text-gold transition-colors">
+                        <i class="far fa-user text-lg"></i>
+                    </button>
+                    <button class="hover:text-gold transition-colors relative">
+                        <i class="fas fa-shopping-bag text-lg"></i>
+                        <span class="absolute -top-2 -right-2 bg-gold text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">0</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative h-[80vh] overflow-hidden">
+        <img src="pexels-roman-odintsov-5667615.jpg" alt="Heritage Building" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="absolute inset-0 flex items-center justify-center text-white text-center">
+            <div>
+                <h1 class="serif text-6xl mb-6">Our Heritage</h1>
+                <p class="max-w-2xl mx-auto text-lg">Since 1947, MAISON STEPS has been crafting exceptional footwear, preserving traditional techniques while embracing innovation.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="py-24">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <div class="relative">
+                    <!-- Timeline Line -->
+                    <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gold"></div>
+
+                    <!-- Timeline Items -->
+                    <div class="space-y-24">
+                        <!-- 1947 -->
+                        <div data-aos="fade-right" class="relative flex items-center justify-between">
+                            <div class="w-5/12 pr-16 text-right">
+                                <h3 class="serif text-3xl mb-3">1947</h3>
+                                <p class="text-gray-600">Founded by master craftsman Pierre Steps in Paris, establishing the foundation of luxury shoemaking.</p>
+                            </div>
+                            <div class="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-gold flex items-center justify-center">
+                                <div class="w-4 h-4 rounded-full bg-white"></div>
+                            </div>
+                            <div class="w-5/12"></div>
+                        </div>
+
+                        <!-- 1960 -->
+                        <div data-aos="fade-left" class="relative flex items-center justify-between">
+                            <div class="w-5/12"></div>
+                            <div class="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-gold flex items-center justify-center">
+                                <div class="w-4 h-4 rounded-full bg-white"></div>
+                            </div>
+                            <div class="w-5/12 pl-16">
+                                <h3 class="serif text-3xl mb-3">1960</h3>
+                                <p class="text-gray-600">Expansion into international markets and introduction of our signature craftsmanship techniques.</p>
+                            </div>
+                        </div>
+
+                        <!-- 1985 -->
+                        <div data-aos="fade-right" class="relative flex items-center justify-between">
+                            <div class="w-5/12 pr-16 text-right">
+                                <h3 class="serif text-3xl mb-3">1985</h3>
+                                <p class="text-gray-600">Launch of our bespoke service, setting new standards in personalized luxury footwear.</p>
+                            </div>
+                            <div class="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-gold flex items-center justify-center">
+                                <div class="w-4 h-4 rounded-full bg-white"></div>
+                            </div>
+                            <div class="w-5/12"></div>
+                        </div>
+
+                        <!-- Present -->
+                        <div data-aos="fade-left" class="relative flex items-center justify-between">
+                            <div class="w-5/12"></div>
+                            <div class="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-gold flex items-center justify-center">
+                                <div class="w-4 h-4 rounded-full bg-white"></div>
+                            </div>
+                            <div class="w-5/12 pl-16">
+                                <h3 class="serif text-3xl mb-3">Present</h3>
+                                <p class="text-gray-600">Continuing our legacy of excellence while embracing sustainable practices and innovative techniques.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+
+    <!-- Values Section -->
+    <section class="py-24">
+        <div class="container mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center mb-16">
+                <h2 class="serif text-4xl mb-4">Our Core Values</h2>
+                <p class="text-gray-600">The principles that have guided us through generations.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div data-aos="fade-up" class="text-center">
+                    <div class="w-20 h-20 mx-auto mb-6 rounded-full bg-gold flex items-center justify-center">
+                        <i class="fas fa-star text-white text-2xl"></i>
+                    </div>
+                    <h3 class="serif text-2xl mb-3">Excellence</h3>
+                    <p class="text-gray-600">Unwavering commitment to the highest standards of craftsmanship in every detail.</p>
+                </div>
+
+                <div data-aos="fade-up" data-aos-delay="100" class="text-center">
+                    <div class="w-20 h-20 mx-auto mb-6 rounded-full bg-gold flex items-center justify-center">
+                        <i class="fas fa-history text-white text-2xl"></i>
+                    </div>
+                    <h3 class="serif text-2xl mb-3">Tradition</h3>
+                    <p class="text-gray-600">Preserving time-honored techniques while embracing modern innovation.</p>
+                </div>
+
+                <div data-aos="fade-up" data-aos-delay="200" class="text-center">
+                    <div class="w-20 h-20 mx-auto mb-6 rounded-full bg-gold flex items-center justify-center">
+                        <i class="fas fa-leaf text-white text-2xl"></i>
+                    </div>
+                    <h3 class="serif text-2xl mb-3">Sustainability</h3>
+                    <p class="text-gray-600">Commitment to environmental responsibility and ethical practices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as other pages) -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <div>
+                    <h3 class="serif text-xl mb-4">MAISON STEPS</h3>
+                    <p class="text-gray-400">Crafting excellence since 1947</p>
+                </div>
+                <div>
+                    <h4 class="serif text-lg mb-4">Contact</h4>
+                    <p class="text-gray-400">contact@maisonsteps.com</p>
+                    <p class="text-gray-400">+1 (555) 123-4567</p>
+                </div>
+                <div>
+                    <h4 class="serif text-lg mb-4">Follow Us</h4>
+                    <div class="flex gap-4">
+                        <a href="#" class="text-gray-400 hover:text-gold transition-colors">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-gold transition-colors">
+                            <i class="fab fa-facebook text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-gold transition-colors">
+                            <i class="fab fa-pinterest text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="serif text-lg mb-4">Newsletter</h4>
+                    <form class="flex gap-2">
+                        <input type="email" placeholder="Your email" class="bg-gray-800 px-4 py-2 rounded-lg flex-grow">
+                        <button class="bg-gold px-6 py-2 rounded-lg hover:bg-opacity-90 transition-colors">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 MAISON STEPS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>

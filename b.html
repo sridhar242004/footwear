@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bespoke | MAISON STEPS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@200;300;400;500;600&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .serif {
+            font-family: 'Cormorant Garamond', serif;
+        }
+
+        .text-gold {
+            color: #BD9A5F;
+        }
+
+        .bg-gold {
+            background-color: #BD9A5F;
+        }
+
+        .hover\:text-gold:hover {
+            color: #BD9A5F;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav class="w-full bg-white shadow-sm">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="serif text-3xl tracking-widest">MAISON STEPS</a>
+                <div class="hidden lg:flex items-center gap-8">
+                    <a href="index.html" class="py-2 text-gold">Home</a>
+                    <a href="h.html" class="py-2 hover:text-gold transition-colors">Heritage</a>
+                   
+                </div>
+                <div class="flex items-center gap-6">
+                    <button class="hover:text-gold transition-colors">
+                        <i class="fas fa-search text-lg"></i>
+                    </button>
+                    <button class="hover:text-gold transition-colors">
+                        <i class="far fa-user text-lg"></i>
+                    </button>
+                    <button class="hover:text-gold transition-colors relative">
+                        <i class="fas fa-shopping-bag text-lg"></i>
+                        <span class="absolute -top-2 -right-2 bg-gold text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">0</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative h-[80vh] overflow-hidden">
+        <img src="pexels-neilyonamine-11019760.jpg" alt="Bespoke Craftsmanship" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black/30"></div>
+        <div class="absolute inset-0 flex items-center justify-center text-white text-center">
+            <div>
+                <h1 class="serif text-6xl mb-6">Bespoke Excellence</h1>
+                <p class="max-w-2xl mx-auto text-lg">Experience the ultimate in personalized luxury with our bespoke service.</p>
+                <button class="mt-8 bg-gold px-8 py-3 rounded-lg hover:bg-opacity-90 transition-colors">
+                    Book a Consultation
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="py-24">
+        <div class="container mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center mb-16">
+                <h2 class="serif text-4xl mb-4">The Bespoke Journey</h2>
+                <p class="text-gray-600">A meticulous process crafted around your unique preferences and requirements.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <!-- Step 1 -->
+                <div data-aos="fade-up" class="text-center">
+                    <div class="w-16 h-16 mx-auto mb-6 rounded-full bg-gold flex items-center justify-center text-white serif text-2xl">
+                        1
+                    </div>
+                    <h3 class="serif text-2xl mb-3">Consultation</h3>
+                    <p class="text-gray-600">Personal meeting with our master craftsman to discuss your vision and requirements.</p>
+                </div>
+
+                <!-- Step 2 -->
+                <div data-aos="fade-up" data-aos-delay="100" class="text-center">
+                    <div class="w-16 h-16 mx-auto mb-6 rounded-full bg-gold flex items-center justify-center text-white serif text-2xl">
+                        2
+                    </div>
+                    <h3 class="serif text-2xl mb-3">Measurement</h3>
+                    <p class="text-gray-600">Precise foot measurements and analysis for the perfect fit.</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div data-aos="fade-up" data-aos-delay="200" class="text-center">
+                    <div class="w-16 h-16 mx-auto mb-6 rounded-full bg-gold flex items-center justify-center text-white serif text-2xl">
+                        3
+                    </div>
+                    <h3 class="serif text-2xl mb-3">Creation</h3>
+                    <p class="text-gray-600">Handcrafting your unique pair with the finest materials and techniques.</p>
+                </div>
+
+                <!-- Step 4 -->
+                <div data-aos="fade-up" data-aos-delay="300" class="text-center">
+                    <div class="w-16 h-16 mx-auto mb-6 rounded-full bg-gold flex items-center justify-center text-white serif text-2xl">
+                        4
+                    </div>
+                    <h3 class="serif text-2xl mb-3">Fitting</h3>
+                    <p class="text-gray-600">Final fitting and adjustments to ensure perfect comfort and style.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Left Column -->
+                <div>
+                    <img src="pexels-tarun-kumar-1107177648-24374679.jpg" alt="Bespoke Craftsmanship" class="w-full h-full object-cover rounded-lg shadow-lg">
+                </div>
+
+                <!-- Right Column -->
+                <div class="space-y-12">
+                    <div data-aos="fade-left">
+                        <h3 class="serif text-3xl mb-4">Unparalleled Personalization</h3>
+                        <p class="text-gray-600 mb-6">Choose from over 50 leather types, countless color options, and various sole constructions to create your perfect pair.</p>
+                        <ul class="space-y-4">
+                            <li class="flex items-center gap-3">
+                                <i class="fas fa-check text-gold"></i>
+                                <span>Premium leather selection</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <i class="fas fa-check text-gold"></i>
+                                <span>Custom patina options</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <i class="fas fa-check text-gold"></i>
+                                <span>Personalized last creation</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div data-aos="fade-left" data-aos-delay="100">
+                        <h3 class="serif text-3xl mb-4">Expert Craftsmanship</h3>
+                        <p class="text-gray-600 mb-6">Each pair is crafted by master artisans with decades of experience in traditional shoemaking techniques.</p>
+                        <ul class="space-y-4">
+                            <li class="flex items-center gap-3">
+                                <i class="fas fa-check text-gold"></i>
+                                <span>Hand-welted construction</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <i class="fas fa-check text-gold"></i>
+                                <span>Traditional techniques</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <i class="fas fa-check text-gold"></i>
+                                <span>Lifetime care service</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-24">
+        <div class="container mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center mb-16">
+                <h2 class="serif text-4xl mb-4">Client Experiences</h2>
+                <p class="text-gray-600">Discover what our discerning clients say about their bespoke journey.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <!-- Testimonial 1 -->
+                <div data-aos="fade-up" class="bg-white p-8 rounded-lg shadow-lg">
+                    <div class="flex gap-4 items-center mb-6">
+                        <img src="png-clipart-iphone-world-emoji-day-man-iphone-electronics-face.png" alt="Client 1" class="w-12 h-12 rounded-full">
+                        <div>
+                            <h4 class="serif text-xl">James Harrison</h4>
+                            <p class="text-gold">London, UK</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"An exceptional experience from start to finish. The attention to detail and level of personalization exceeded all expectations."</p>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div data-aos="fade-up" data-aos-delay="100" class="bg-white p-8 rounded-lg shadow-lg">
+                    <div class="flex gap-4 items-center mb-6">
+                        <img src="png-clipart-iphone-world-emoji-day-man-iphone-electronics-face.png" alt="Client 2" class="w-12 h-12 rounded-full">
+                        <div>
+                            <h4 class="serif text-xl">Pierre Dubois</h4>
+                            <p class="text-gold">Paris, France</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"The craftsmanship is unparalleled. Each pair feels like a work of art crafted specifically for my feet."</p>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div data-aos="fade-up" data-aos-delay="200" class="bg-white p-8 rounded-lg shadow-lg">
+                    <div class="flex gap-4 items-center mb-6">
+                        <img src="png-clipart-iphone-world-emoji-day-man-iphone-electronics-face.png" alt="Client 3" class="w-12 h-12 rounded-full">
+                        <div>
+                            <h4 class="serif text-xl">Marco Rossi</h4>
+                            <p class="text-gold">Milan, Italy</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"The perfect blend of traditional craftsmanship and modern styling. Each pair tells a unique story."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-24 bg-gray-900 text-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="serif text-4xl mb-6">Begin Your Bespoke Journey</h2>
+                <p class="mb-8">Schedule a consultation with our master craftsmen to create your perfect pair.</p>
+                <form class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+                    <input type="text" placeholder="Name" class="bg-gray-800 px-4 py-3 rounded-lg">
+                    <input type="email" placeholder="Email" class="bg-gray-800 px-4 py-3 rounded-lg">
+                    <input type="tel" placeholder="Phone" class="bg-gray-800 px-4 py-3 rounded-lg">
+                    <select class="bg-gray-800 px-4 py-3 rounded-lg">
+                        <option>Preferred Location</option>
+                        <option>London</option>
+                        <option>Paris</option>
+                        <option>Milan</option>
+                    </select>
+                    <textarea placeholder="Message" class="bg-gray-800 px-4 py-3 rounded-lg md:col-span-2 rows-4"></textarea>
+                    <div class="md:col-span-2">
+                        <button class="bg-gold px-8 py-3 rounded-lg hover:bg-opacity-90 transition-colors w-full">
+                            Request Consultation
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 border-t border-gray-800">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <div>
+                    <h3 class="serif text-xl mb-4">MAISON STEPS</h3>
+                    <p class="text-gray-400">Crafting excellence since 1947</p>
+                </div>
+                <div>
+                    <h4 class="serif text-lg mb-4">Contact</h4>
+                    <p class="text-gray-400">contact@maisonsteps.com</p>
+                    <p class="text-gray-400">+1 (555) 123-4567</p>
+                </div>
+                <div>
+                    <h4 class="serif text-lg mb-4">Follow Us</h4>
+                    <div class="flex gap-4">
+                        <a href="#" class="text-gray-400 hover:text-gold transition-colors">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-gold transition-colors">
+                            <i class="fab fa-facebook text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-gold transition-colors">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-gold transition-colors">
+                            <i class="fab fa-pinterest text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="serif text-lg mb-4">Newsletter</h4>
+                    <form class="flex gap-2">
+                        <input type="email" placeholder="Your email" class="bg-gray-800 px-4 py-2 rounded-lg flex-1">
+                        <button class="bg-gold px-4 py-2 rounded-lg hover:bg-opacity-90 transition-colors">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 MAISON STEPS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>

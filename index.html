@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELITE · Artisanal Footwear</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@200;300;400;500;600&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .serif {
+            font-family: 'Cormorant Garamond', serif;
+        }
+        
+        .collection-card:hover .collection-image {
+            transform: scale(1.05);
+            transition: transform 0.8s ease;
+        }
+    </style>
+</head>
+<body class="bg-white text-black">
+    <!-- Navigation -->
+    <nav class="w-full bg-white shadow-sm">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <a href="#" class="serif text-3xl tracking-widest text-black">MAISON STEPS</a>
+                <div class="hidden lg:flex items-center gap-8">
+                    <a href="h.html" class="py-2 hover:text-gold transition-colors">Heritage</a>
+                    <a href="b.html" class="py-2 hover:text-gold transition-colors">Bespoke</a>
+                </div>
+                <div class="flex items-center gap-6">
+                    <button class="hover:text-gold transition-colors">
+                        <i class="fas fa-search text-lg"></i>
+                    </button>
+                    <button class="hover:text-gold transition-colors">
+                        <i class="far fa-user text-lg"></i>
+                    </button>
+                    <button class="hover:text-gold transition-colors relative">
+                        <i class="fas fa-shopping-bag text-lg"></i>
+                        <span class="absolute -top-2 -right-2 bg-gold text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">0</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+<section class="relative h-[90vh] overflow-hidden">
+    <video autoplay loop muted class="w-full h-full object-cover opacity-90">
+        <source src="853958-hd_1920_1080_30fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="absolute inset-0 bg-black/40"></div>
+    <div class="absolute inset-0 flex items-center justify-center text-white text-center">
+        <div>
+            <h1 class="serif text-6xl mb-4">Mastery in Every Stitch</h1>
+            <p class="max-w-xl mx-auto text-lg mb-8">Experience the pinnacle of artisanal footwear, where heritage craftsmanship meets contemporary elegance.</p>
+            <button class="border border-white px-8 py-3 hover:bg-white hover:text-black transition-colors">
+                Explore Collection
+            </button>
+        </div>
+    </div>
+</section>
+
+ <!-- Seasonal Collections -->
+<section class="py-20">
+    <div class="container mx-auto px-6">
+        <h2 class="serif text-4xl mb-12 text-center">Our Collections</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="collection-card group relative overflow-hidden">
+                <div class="aspect-[4/5] overflow-hidden">
+                    <img src="pexels-feyza-altun-120534393-19335787.jpg" alt="Spring/Summer 2024" class="collection-image w-full h-full object-cover">
+                </div>
+                <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div class="absolute bottom-0 left-0 right-0 p-8 text-white">
+                        <h3 class="serif text-3xl mb-2">Loafers Collection</h3>
+                        <p class="mb-4">Light, breathable designs inspired by Mediterranean summers</p>
+                        <a href="l.html" class="border border-white px-6 py-2 hover:bg-white hover:text-black transition-colors inline-block">
+                            Explore Collection
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="collection-card group relative overflow-hidden">
+                <div class="aspect-[4/5] overflow-hidden">
+                    <img src="pexels-melvin-buezo-1253763-2529148.jpg" alt="Fall/Winter 2023" class="collection-image w-full h-full object-cover">
+                </div>
+                <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div class="absolute bottom-0 left-0 right-0 p-8 text-white">
+                        <h3 class="serif text-3xl mb-2">Sneakers Collection</h3>
+                        <p class="mb-4">Robust designs crafted for urban sophistication</p>
+                        <a href="s.html" class="border border-white px-6 py-2 hover:bg-white hover:text-black transition-colors inline-block">
+                            Explore Collection
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Craftsmanship Section -->
+    <section class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="serif text-4xl mb-12 text-center">Artisanal Excellence</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="collection-card group relative overflow-hidden">
+                    <div class="aspect-square overflow-hidden">
+                        <img src="2c0d217494e668dc449dc7efc87dff2a.jpg" alt="Material Selection" class="collection-image w-full h-full object-cover">
+                    </div>
+                    <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity">
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
+                            <h3 class="serif text-2xl mb-2">Material Selection</h3>
+                            <p class="mb-4">Premium leathers from Europe's finest tanneries</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection-card group relative overflow-hidden">
+                    <div class="aspect-square overflow-hidden">
+                        <img src="pexels-tarun-kumar-1107177648-24374679.jpg" alt="Hand Stitching" class="collection-image w-full h-full object-cover">
+                    </div>
+                    <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity">
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
+                            <h3 class="serif text-2xl mb-2">Hand Stitching</h3>
+                            <p class="mb-4">Traditional techniques passed through generations</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection-card group relative overflow-hidden">
+                    <div class="aspect-square overflow-hidden">
+                        <img src="pexels-lucas-george-wendt-2279952-10876231.jpg" alt="Patina Finishing" class="collection-image w-full h-full object-cover">
+                    </div>
+                    <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity">
+                        <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
+                            <h3 class="serif text-2xl mb-2">Patina Finishing</h3>
+                            <p class="mb-4">Signature coloring process for unique character</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-20 border-t">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <div>
+                    <h3 class="serif text-2xl mb-6">ELITE</h3>
+                    <p>Crafting excellence since 1897</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-6">COLLECTION</h4>
+                    <ul class="space-y-4">
+                        <li><a href="#" class="hover:text-gold transition-colors">Oxford</a></li>
+                        <li><a href="#" class="hover:text-gold transition-colors">Derby</a></li>
+                        <li><a href="#" class="hover:text-gold transition-colors">Monk</a></li>
+                        <li><a href="#" class="hover:text-gold transition-colors">Loafer</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-6">COMPANY</h4>
+                    <ul class="space-y-4">
+                        <li><a href="#" class="hover:text-gold transition-colors">About</a></li>
+                        <li><a href="#" class="hover:text-gold transition-colors">Craftsmanship</a></li>
+                        <li><a href="#" class="hover:text-gold transition-colors">Sustainability</a></li>
+                        <li><a href="#" class="hover:text-gold transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-6">FOLLOW US</h4>
+                    <div class="flex space-x-6">
+                        <a href="#" class="hover:text-gold transition-colors">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="#" class="hover:text-gold transition-colors">
+                            <i class="fab fa-facebook text-xl"></i>
+                        </a>
+                        <a href="#" class="hover:text-gold transition-colors">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
